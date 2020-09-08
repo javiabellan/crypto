@@ -73,14 +73,14 @@ KawPow
 
 
 1. Wallet
-  - Mist (official Ethereum wallet) https://github.com/ethereum/mist/releases
+   - Mist (official Ethereum wallet) https://github.com/ethereum/mist/releases
 2. GPU mining programs
-  - Ethminer [ethminer](https://aur.archlinux.org/packages/ethminer)
-  - Claymore
+   - Ethminer [ethminer](https://aur.archlinux.org/packages/ethminer)
+   - Claymore
 3. Pool
-  - Ethpool
-  - 2Miners
-  - Dwarfpool
+   - Ethpool
+   - 2Miners
+   - Dwarfpool
 
 ### Ejemplo ethminer con ethpool:
 $ ./ethminer -G -P stratum1+tcp://YOUR_ADDRESS_HERE@us1.ethpool.org:3333
