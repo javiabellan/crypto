@@ -1,6 +1,6 @@
 Es rentable minar a un precio inferior de 5cent el KW (en España vale de 20 a 60 cents el KW)
 
-================= Monedas
+# Monedas
 Bitcoin
 Ethereum
 Monero
@@ -9,7 +9,7 @@ Bitcoin cash
 Bitcoin voult
 
 
-================ GPUs
+# GPUs
 Placas base especiales (6 PCI express)
 Fuente 1200 W
 6 targetas AMD radeon rx 570
@@ -35,14 +35,14 @@ Sistema operativo: ethOS
 
 
 
-================= ASICs
+# ASICs
 
 antminer s17
 
 
 
 
-================== Hash algorithms
+# Hash algorithms
 Hashing is the Proof of Work (POW) 
 
 
@@ -72,20 +72,17 @@ KawPow
 | Memoria         | 4Gb    | 11GB   | 11Gb   | 16Gb       |
 
 
-Wallet
-- Mist (official Ethereum wallet) https://github.com/ethereum/mist/releases
+1. Wallet
+  - Mist (official Ethereum wallet) https://github.com/ethereum/mist/releases
+2. GPU mining programs
+  - Ethminer [ethminer](https://aur.archlinux.org/packages/ethminer)
+  - Claymore
+3. Pool
+  - Ethpool
+  - 2Miners
+  - Dwarfpool
 
-GPU mining programs
-- Ethminer [ethminer](https://aur.archlinux.org/packages/ethminer)
-- Claymore
-
-Pool
-Ethpool
-2Miners
-Dwarfpool
-
-
-Ejemplo ethminer con ethpool:
+### Ejemplo ethminer con ethpool:
 $ ./ethminer -G -P stratum1+tcp://YOUR_ADDRESS_HERE@us1.ethpool.org:3333
 
 
